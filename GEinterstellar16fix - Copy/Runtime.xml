@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:aeb1f125389b664e56d3e418d59f6676:c060ee67952b70df019f01cd59258b2f:b02ced29957e81f5347a4de54b2b8b4d$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Runtime.png" width="512" height="512">
+    <sprite n="ActionButton.png" x="258" y="300" w="119" h="46"/>
+    <sprite n="ActionButtonSelected.png" x="268" y="211" w="119" h="46"/>
+    <sprite n="AltimeterControl.PNG" x="268" y="54" w="153" h="76"/>
+    <sprite n="Button.png" x="299" y="421" w="80" h="80"/>
+    <sprite n="ButtonIconActivateStage.png" x="376" y="132" w="45" h="35" r="y"/>
+    <sprite n="ButtonIconMapView.png" x="398" y="258" w="54" h="54"/>
+    <sprite n="ButtonIconMenu.png" x="376" y="169" w="43" h="35"/>
+    <sprite n="ButtonIconShipView.png" x="426" y="456" w="42" h="42"/>
+    <sprite n="ButtonIconSpeedMenu.PNG" x="472" y="343" w="36" h="41"/>
+    <sprite n="ButtonPressed.png" x="217" y="421" w="80" h="80"/>
+    <sprite n="FastForward.png" x="381" y="477" w="38" h="26"/>
+    <sprite n="ForwardButton.png" x="423" y="122" w="87" h="66"/>
+    <sprite n="ForwardButtonBottomBar.PNG" x="2" y="490" w="102" h="3"/>
+    <sprite n="ForwardButtonPressed.png" x="423" y="54" w="87" h="66"/>
+    <sprite n="ForwardButtonTopBar.png" x="110" y="472" w="95" h="6"/>
+    <sprite n="FuelDrainIcon.png" x="472" y="444" w="25" h="26"/>
+    <sprite n="FuelFillIcon.png" x="472" y="416" w="25" h="26"/>
+    <sprite n="MarkerApoapsis.png" x="427" y="400" w="43" h="54"/>
+    <sprite n="MarkerClosest.png" x="427" y="344" w="43" h="54"/>
+    <sprite n="MarkerEncounter.png" x="382" y="348" w="43" h="54"/>
+    <sprite n="MarkerPeriapsis.png" x="381" y="421" w="43" h="54"/>
+    <sprite n="PathSegment.png" x="100" y="399" w="7" h="4"/>
+    <sprite n="PlayButton.png" x="453" y="318" w="26" h="23" r="y"/>
+    <sprite n="RocketFlame-1.png" x="184" y="6" w="82" h="222"/>
+    <sprite n="RocketFlame-2.png" x="100" y="6" w="82" h="222"/>
+    <sprite n="RotateButton.png" x="238" y="348" w="105" h="71"/>
+    <sprite n="RotateButtonPressed.png" x="110" y="399" w="105" h="71"/>
+    <sprite n="SmokeParticle.PNG" x="379" y="314" w="32" h="32"/>
+    <sprite n="StageControlBottom.PNG" x="100" y="308" w="136" h="89" r="y"/>
+    <sprite n="StageControlStretch.PNG" x="372" y="348" w="8" h="71" r="y"/>
+    <sprite n="StageControlTop.PNG" x="345" y="348" w="25" h="71" r="y"/>
+    <sprite n="SteerButton.png" x="2" y="411" w="106" h="77"/>
+    <sprite n="SteerButtonPressed.png" x="268" y="132" w="106" h="77"/>
+    <sprite n="StopButton.png" x="470" y="472" w="25" h="25"/>
+    <sprite n="ThrottleControl.png" x="2" y="2" w="96" h="407"/>
+    <sprite n="ThrottleLevel1.png" x="454" y="295" w="27" h="21" r="y"/>
+    <sprite n="ThrottleLevel10.png" x="485" y="190" w="25" h="48" r="y"/>
+    <sprite n="ThrottleLevel2.png" x="483" y="313" w="25" h="28"/>
+    <sprite n="ThrottleLevel3.png" x="483" y="283" w="27" h="28" r="y"/>
+    <sprite n="ThrottleLevel4.png" x="472" y="386" w="31" h="28"/>
+    <sprite n="ThrottleLevel5.png" x="454" y="258" w="27" h="35" r="y"/>
+    <sprite n="ThrottleLevel6.png" x="413" y="314" w="38" h="28"/>
+    <sprite n="ThrottleLevel7.png" x="483" y="240" w="27" h="41" r="y"/>
+    <sprite n="ThrottleLevel8.png" x="389" y="206" w="28" h="44" r="y"/>
+    <sprite n="ThrottleLevel9.png" x="159" y="480" w="48" h="27"/>
+    <sprite n="TimeControl.PNG" x="258" y="259" w="138" h="39"/>
+    <sprite n="ToolbarSide.PNG" x="100" y="230" w="156" h="76"/>
+    <sprite n="ToolbarStretch.PNG" x="2" y="495" w="42" h="4" r="y"/>
+    <sprite n="UnlockHeading.png" x="268" y="2" w="230" h="50"/>
+    <sprite n="WarpBarSide.PNG" x="110" y="480" w="47" h="30" r="y"/>
+    <sprite n="WarpBarStretch.png" x="500" y="2" w="6" h="47"/>
+    <sprite n="WarpButton.png" x="421" y="190" w="62" h="27"/>
+    <sprite n="WarpSpeedButton.png" x="419" y="219" w="62" h="37"/>
+</TextureAtlas>

@@ -1,0 +1,174 @@
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling disabled
+Loading font from .\FontSmallRetina.fnt
+
+Loading default inputs.
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling disabled
+Loading font from .\FontSmallRetina.fnt
+
+Loading default inputs.
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling disabled
+Loading font from .\FontSmallRetina.fnt
+
+Loading default inputs.
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Loading default inputs.
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Loading default inputs.
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Loading default inputs.
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+
+Creating game engine
+Fullscreen
+OpenGL version: 4.6.0 - Build 32.0.101.7077
+Super sampling enabled
+Loading font from .\FontSmallRetina.fnt
+

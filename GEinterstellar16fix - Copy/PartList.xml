@@ -1,0 +1,1042 @@
+<PartTypes xmlns="http://jundroo.com/simplerockets/partlist.xsd">
+   <PartType id="pod-1" name="Command Computer" description="This is your ship's brain. Be careful with it." sprite="CommandComputer.png" type="pod" mass="0.25" width="4" height="3" hidden="true" ignoreEditorIntersections="true">
+      <Damage disconnect="1500" explode="1500" explosionPower="5" explosionSize="10" />
+      <Shape>
+         <!-- Must be counter clockwise -->
+         <Vertex x="-2.0" y="-1.5" />
+         <Vertex x="2.0" y="-1.5" />
+         <Vertex x="1.3" y="1.5" />
+         <Vertex x="-1.3" y="1.5" />
+      </Shape>
+      <AttachPoints>
+         <!-- x="-2" y="-0.75" -->
+         <AttachPoint x="0" y="-0.5" />
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint x="-2" y="-0.5" />
+         <AttachPoint x="2.0" y="-0.5" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-23" name="Oscar SFT375" description="The smallest solid fuel tank on the market." sprite="Solid tiny.png" type="tank" mass="1.675" width="2" height="4" category="Solid Rocket Boosters">
+      <Tank fuel="375.0" dryMass="0.175" fuelType="3" />
+      <Damage disconnect="2500" explode="2500" explosionPower="1" explosionSize="5" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-22" name="Rockomax SFT1500" description="Small solid fuel tank." sprite="Solid small.png" type="tank" mass="5.0" width="4" height="4" category="Solid Rocket Boosters">
+      <Tank fuel="1500.0" dryMass="0.5" fuelType="3" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-20" name="Rockomax SFT3000" description="Solid fuel tank for SRB engine." sprite="Solid tank.png" type="tank" mass="9.85" width="4" height="8" category="Solid Rocket Boosters">
+      <Tank fuel="3000.0" dryMass="0.85" fuelType="3" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-21" name="Rockomax SFT6000" description="Large solid fuel tank." sprite="Solid large.png" type="tank" mass="19.2" width="4" height="16" category="Solid Rocket Boosters">
+      <Tank fuel="6000.0" dryMass="1.2" fuelType="3" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="pod-2" name="Command Pod Mk1" description="Crew Modulle. Carries single astronaut." sprite="CommandPodNew.png" type="tank" mass="0.75" width="4" height="3" category="Pods">
+      <Tank fuel="10" dryMass="0.73" fuelType="1" />
+      <Damage disconnect="1500" explode="1500" explosionPower="5" explosionSize="10" />
+      <Shape>
+         <Vertex x="-2.0" y="-1.5" />
+         <Vertex x="2.0" y="-1.5" />
+         <Vertex x="1.3" y="1.5" />
+         <Vertex x="-1.3" y="1.5" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint x="0" y="-0.5" />
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint x="-2" y="-0.5" />
+         <AttachPoint x="2.0" y="-0.5" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="pod-5" name="Command Pod Mk2" description="Crew Modulle. Carries three astronauts." sprite="CommandPod Mk2.png" type="tank" mass="4.75" width="8" height="6" category="Pods">
+      <Tank fuel="30" dryMass="4.69" fuelType="1" />
+      <Damage disconnect="1500" explode="1500" explosionPower="5" explosionSize="10" />
+      <Shape>
+         <Vertex x="-4.0" y="-3.0" />
+         <Vertex x="4.0" y="-3.0" />
+         <Vertex x="1.25" y="3.0" />
+         <Vertex x="-1.25" y="3.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint x="0" y="-2.0" />
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint x="-4" y="-2.0" />
+         <AttachPoint x="4.0" y="-2.0" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="pod-6" name="Mk1 Lander Can" description="Lander module. Carries single astronaut." sprite="Mk1 LanderCan.png" type="tank" mass="0.5" width="4" height="4" category="Pods">
+      <Tank fuel="15" dryMass="0.47" fuelType="1" />
+      <Damage disconnect="1500" explode="1500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint x="0" y="-1.0" />
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="pod-7" name="Mk2 Lander Can" description="Lander module. Carries two astronauts." sprite="Mk2 LanderCan.png" type="tank" mass="3.0" width="8" height="4" category="Pods">
+      <Tank fuel="40" dryMass="2.92" fuelType="1" />
+      <Damage disconnect="1500" explode="1500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint x="0" y="-1.0" />
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="pod-4" name="Stayputnik Mk2" description="This shielded metal ball might stand well as an impact probe." sprite="stayputnik probe.png" type="CPod" mass="0.25" width="4" height="4" canExplode="false" category="Pods">
+      <Shape>
+         <Vertex x="0.0" y="2.0" />
+         <Vertex x="-2.0" y="1.0" />
+         <Vertex x="-2.0" y="-1.0" />
+         <Vertex x="0.0" y="-2.0" />
+         <Vertex x="2.0" y="-1.0" />
+         <Vertex x="2.0" y="1.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint x="0" y="0.0" />
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="BottomCenter" />
+         <AttachPoint location="LeftCenter" />
+         <AttachPoint location="RightCenter" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="detacher-7" name="Tiny Detacher" description="Tiny detacher that is useful to separate something small." sprite="TinyDetacher.png" type="detacher" mass="0.125" width="2" height="1" category="Structural">
+      <AttachPoints>
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="adapter-2" name="TTM Adapter" description="Use this to nicely fit tiny parts to your ship." sprite="TTL Adapter.png" type="adapter" mass="0.375" width="4" height="2" drag="-0.75" canExplode="false" category="Structural">
+      <Shape>
+         <Vertex x="-2.0" y="-1.0" />
+         <Vertex x="2.0" y="-1.0" />
+         <Vertex x="1" y="1.0" />
+         <Vertex x="-1" y="1.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="detacher-1" name="Medium Detacher" description="Use this to split your ship into stages." sprite="DetacherVertical.png" type="detacher" mass="0.25" width="4" height="1" category="Structural">
+      <AttachPoints>
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="detacher-2" name="Radial Detacher" description="Same as the detacher above, but this works on the sides." sprite="DetacherRadial.png" type="detacher" mass="0.25" width="1" height="4" category="Structural">
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+    <PartType id="adapter-1" name="MTL Adapter" description="Use this to nicely fit huge fuel tanks to your ship." sprite="SmallToLargeAdapter.png" type="adapter" mass="1.125" width="8" height="3" drag="-1.5" category="Structural">
+      <Shape>
+         <Vertex x="-4.0" y="-1.5" />
+         <Vertex x="4.0" y="-1.5" />
+         <Vertex x="2" y="1.5" />
+         <Vertex x="-2" y="1.5" />
+      </Shape>
+      <AttachPoints>
+	      <AttachPoint location="TopCenter" fuelLine="true" />
+		   <AttachPoint x="1" y="1.5" fuelLine="true" />
+		   <AttachPoint x="-1" y="1.5" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="detacher-4" name="Large Detacher" description="Use this to split your ship into stages. Perfect for Large rockets." sprite="Huge Detacher.png" type="detacher" mass="0.5" width="8" height="2" category="Structural">
+      <AttachPoints>
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+      </AttachPoints>
+   </PartType>
+   
+   <PartType id="wheel-1" name="Old Wheel" description="Your turn buttons can control these wheels." sprite="Wheel.png" type="wheel" mass="0.25" width="4" height="4" ignoreEditorIntersections="true" hidden="true" disableEditorRotation="true">
+      <AttachPoints>
+         <AttachPoint x="0" y="0" breakAngle="180" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="wheel-4" name="Tiny Wheel" description="Perfect for small rovers." sprite="SmallWheel.png" type="wheel" mass="0.0625" width="2" height="2" ignoreEditorIntersections="true" disableEditorRotation="true">
+      <AttachPoints>
+         <AttachPoint x="0" y="0" breakAngle="180" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="wheel-2" name="Medium Wheel" description="Your turn buttons can control these wheels." sprite="Wheel.png" type="wheel" mass="0.25" width="4" height="4" ignoreEditorIntersections="true" disableEditorRotation="true">
+      <AttachPoints>
+         <AttachPoint x="0" y="0" breakAngle="180" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="wheel-3" name="Large Wheel" description="Usually used when constructing big rovers." sprite="LargeWheel.png" type="wheel" mass="1" width="8" height="8" canExplode="false" ignoreEditorIntersections="true" disableEditorRotation="true">
+      <AttachPoints>
+         <AttachPoint x="0" y="0" breakAngle="180" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="strut-7" name="Tiny Cubic Strut" description="Mini cubic strut version. Put whenever you want." sprite="MicroCubic Strut.png" type="strut" mass="0.03125" width="1" height="1" canExplode="false" category="Structural">
+      <AttachPoints>
+         <AttachPoint x="0" y="0" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="Top" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="Bottom" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="LeftSide" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="RightSide" breakAngle="20" breakForce="150.0" />
+      </AttachPoints>
+   </PartType>
+
+
+   <PartType id="strut-6" name="Cubic Strut" description="Strut that is very good for spacing things out." sprite="Cubic Strut.png" type="strut" mass="0.25" width="2" height="2" canExplode="false" category="Structural">
+      <AttachPoints>
+         <AttachPoint location="Top" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="Bottom" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="LeftSide" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="RightSide" breakAngle="20" breakForce="150.0" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="strut-4" name="Small Strut" description="Smaller strut variation." sprite="SmallStrut.png" type="strut" mass="0.25" width="8" height="1" canExplode="false" category="Structural">
+      <AttachPoints>
+         <AttachPoint location="Top" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="Bottom" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="LeftSide" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="RightSide" breakAngle="20" breakForce="150.0" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="strut-3" name="Short Strut" description="Use this if the large strut is too long." sprite="MediumStrut.png" type="strut" mass="1.0" width="8" height="2" canExplode="false" category="Structural">
+      <AttachPoints>
+         <AttachPoint location="Top" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="Bottom" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="LeftSide" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="RightSide" breakAngle="20" breakForce="150.0" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="strut-5" name="Thin Strut" description="Thinner strut for extra stability." sprite="ThinStrut.png" type="strut" mass="0.5" width="16" height="1" canExplode="false" category="Structural">
+      <AttachPoints>
+         <AttachPoint location="Top" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="Bottom" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="LeftSide" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="RightSide" breakAngle="20" breakForce="150.0" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="strut-1" name="Large Strut" description="Light weight and strong." sprite="Beam.png" type="strut" mass="2.0" width="16" height="2" canExplode="false" category="Structural">
+      <AttachPoints>
+         <AttachPoint location="Top" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="Bottom" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="LeftSide" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="RightSide" breakAngle="20" breakForce="150.0" />
+      </AttachPoints>
+   </PartType>
+
+      <PartType id="strut-2" name="Diagonal Strut" description="Same as the Large strut but diagonal." sprite="DiagonalStrut.png" type="strut" ignoreEditorIntersections="true" mass="2.5" width="14" height="14" canExplode="false" category="Structural">
+      <Shape>
+         <Vertex x="-7.0" y="7.0" />
+         <Vertex x="-7.0" y="5.5" />
+         <Vertex x="5.5" y="-7.0" />
+         <Vertex x="7.0" y="-7.0" />
+         <Vertex x="7.0" y="-5.5" />
+         <Vertex x="-5.5" y="7.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint x="-6" y="7" breakAngle="20" breakForce="150.0" />
+         <AttachPoint x="-7" y="6" breakAngle="20" breakForce="150.0" />
+         <AttachPoint x="6" y="-7" breakAngle="20" breakForce="150.0" />
+         <AttachPoint x="7" y="-6" breakAngle="20" breakForce="150.0" />
+      </AttachPoints>
+   </PartType>
+
+  <PartType id="plate-1" name="Metal plate" description="Use this to make your ship stronger." sprite="MetalPlate.png" type="strut" mass="0.25" width="4" height="4" canExplode="false" category="Structural" ignoreEditorIntersections="true">
+      <AttachPoints>
+         <AttachPoint x="0.0" y="0.0" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="Top" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="Bottom" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="LeftSide" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="RightSide" breakAngle="20" breakForce="150.0" />
+      </AttachPoints>
+   </PartType>
+
+
+   <PartType id="fuselage-1" name="Fuselage" description="Just empty, light weight fuselage. Good for spacing things out." sprite="FuselageNew.png" type="tank" mass="0.5" width="4" height="4" category="Structural">
+      <Tank fuel="0.00001" dryMass="0.5" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fuselage-2" name="Medium Fuselage" description="Empty bigger fueselge. Also good for spacing things out." sprite="MediumFuselage.png" type="fuselage" mass="1.0" width="4" height="8" category="Structural" hidden="true">
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="support-1" name="Launch Support System" description="Use this if rocket is exploding when trying to launch." sprite="Structuralbeam.png" type="detacher" mass="3.25" width="5" height="16" canExplode="false" category="Structural">
+      <Shape>
+         <Vertex x="-2.5" y="-8.0" />
+         <Vertex x="1.5" y="-8.0" />
+         <Vertex x="2.5" y="6.0" />
+         <Vertex x="2.5" y="8.0" />
+         <Vertex x="-1.5" y="8.0" />
+         <Vertex x="-2.5" y="-6.75" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint x="2.5" y="7.0" breakAngle="180" breakForce="9999999.0" group="1" />
+         <AttachPoint x="-2.5" y="7.0" flipX="true" breakAngle="180" breakForce="9999999.0" group="1" />
+         <AttachPoint location="Bottom" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-6" name="Oscar T187" description="The smallest tank on the market." sprite="Slosshy375.png" type="tank" mass="0.4625" width="2" height="2">
+      <Tank fuel="187.5" dryMass="0.0875" />
+      <Damage disconnect="2500" explode="2500" explosionPower="1" explosionSize="5" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-0" name="Rockomax M750" description="Small fuel tank. Useful for landing on Smoon." sprite="TankTiny.png" type="tank" mass="1.85" width="4" height="2">
+      <Tank fuel="750.0" dryMass="0.35" />
+      <Damage disconnect="2500" explode="2500" explosionPower="1" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-1" name="Rockomax M1500" description="Just a small fuel tank. Nothing special." sprite="TankSmall.png" type="tank" mass="3.5" width="4" height="4">
+      <Tank fuel="1500.0" dryMass="0.5" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-2" name="Rockomax M3000" description="Medium tank for medium purposes." sprite="TankMedium.png" type="tank" mass="6.85" width="4" height="8">
+      <Tank fuel="3000.0" dryMass="0.85" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-3" name="Rockomax M6000" description="It's big, but it's heavy too." sprite="TankLarge.png" type="tank" mass="13.2" width="4" height="16">
+      <Tank fuel="6000.0" dryMass="1.2" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-11" name="Rocketdyne L6000" description="Use this if you are building large Lander." sprite="Slosshy 12000.png" type="tank" mass="14.0" width="8" height="4" category="Fuel Tanks">
+      <Tank fuel="6000.0" dryMass="2.0" />
+      <Damage disconnect="3750" explode="3750" explosionPower="15" explosionSize="30" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-9" name="Rocketdyne L12000" description="Capable for transport stages." sprite="Slosshy 30000.png" type="tank" mass="28.0" width="8" height="8" category="Fuel Tanks">
+      <Tank fuel="12000.0" dryMass="4.0" />
+      <Damage disconnect="3750" explode="3750" explosionPower="15" explosionSize="30" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-8" name="Jumbo L30000" description="Largest tank on the market." sprite="Slosshy 20000.png" type="tank" mass="70.0" width="8" height="20" category="Fuel Tanks">
+      <Tank fuel="30000.0" dryMass="10.0" />
+      <Damage disconnect="3750" explode="3750" explosionPower="15" explosionSize="30" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="BottomCenter" fuelLine="true" />
+         <AttachPoint location="Top" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-5" name="Stratus S62" description="Side attaching monopropellant tank." sprite="SideRCS.png" type="tank" mass="0.255" width="1" height="3" category="Control">
+      <Tank fuel="62.5" dryMass="0.13" fuelType="1" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="RightSide" flipX="true" group="1" />
+         <AttachPoint location="LeftSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-10" name="Fluffy T187" description="Small monopropellant tank for RCS thrusters." sprite="PuffySmall.png" type="tank" mass="0.4625" width="2" height="2" category="Control">
+      <Tank fuel="187.5" dryMass="0.0875" fuelType="1" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="BottomCenter" />
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-4" name="Puffy M750" description="Monopropellant for RCS thrusters." sprite="Puffy750.png" type="tank" mass="1.85" width="4" height="2" category="Control">
+      <Tank fuel="750.0" dryMass="0.35" fuelType="1" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="BottomCenter" />
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-12" name="Rockomax-R L6000" description="Large monopropellant tank for RCS thrusters." sprite="LargeRCS.png" type="tank" mass="14.8" width="8" height="4" category="Control">
+      <Tank fuel="6000.0" dryMass="2.8" fuelType="1" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="15" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="BottomCenter" />
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="ion-0" name="Ion 2" description="Really only useful for space probes." sprite="IonEngine.png" type="engine" mass="0.125" width="2" height="1" category="Satellite" sandboxOnly="true">
+      <Engine power="0.0235" consumption="0.94" size="0.25" turn="15.0" throttleExponential="false" fuelType="2" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+         <AttachPoint location="BottomCenter" order="2" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="ion-1" name="Ion 8.5" description="Large Ion engine for space probes." sprite="IonEngineMedium.png" type="engine" mass="0.5" width="4" height="2" category="Satellite" sandboxOnly="true">
+      <Engine power="0.10" consumption="4.00" size="0.3" turn="10.0" throttleExponential="false" fuelType="2" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+         <AttachPoint location="BottomCenter" order="2" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="engine-11" name="Spark 12" description="Tiny engine for space probes." sprite="TinyEngine.png" type="engine" mass="0.1" width="2" height="1">
+      <Engine power="0.141" consumption="3.48" size="0.35" turn="12.0" throttleExponential="true" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+         <AttachPoint location="BottomCenter" order="2" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="MONengine-15" name="Puff 20" description="Tiny RCS engine." sprite="MonoEngine.png" type="engine" mass="0.1" width="1" height="2" category="Control" ignoreEditorIntersections="true">
+      <Engine power="0.235" consumption="5.12" size="0.0" turn="12.0" throttleExponential="true" fuelType="1" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="engine-7" name="Flank 17" description="Side engine that is useful for landing." sprite="SideEngine.png" type="engine" mass="0.25" width="1" height="3" ignoreEditorIntersections="true">
+      <Engine power="0.20" consumption="5.78" size="0.20" turn="5.0" throttleExponential="true" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="engine-0" name="Tiny 21" description="Really only useful for landing on Smoon." sprite="Tiny21new.png" type="engine" mass="0.5" width="4" height="2">
+      <Engine power="0.25" consumption="4.00" size="0.50" turn="20.0" throttleExponential="true" />
+      <Shape>
+         <Vertex x="-0.9" y="-1.0" />
+         <Vertex x="0.9" y="-1.0" />
+         <Vertex x="2.0" y="1.0" />
+         <Vertex x="-2.0" y="1.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+         <AttachPoint location="BottomCenter" order="2" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="engine-1" name="Swivel 85" description="Not bad for landing and it can do a little orbiting too." sprite="Tiny80new.png" type="engine" mass="0.75" width="4" height="4">
+      <Engine power="1.0" consumption="22.27" size="0.60" turn="7.0" throttleExponential="true" />
+      <Shape>
+         <Vertex x="-0.9" y="-2.0" />
+         <Vertex x="0.9" y="-2.0" />
+         <Vertex x="2.0" y="2.0" />
+         <Vertex x="-2.0" y="2.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+         <AttachPoint location="BottomCenter" order="2" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="SRB-1" name="SRB 120" description="Small, high power but huge fuel consumption SRB engine." sprite="SRB small.png" type="engine" mass="0.125" width="2" height="2" category="Solid Rocket Boosters">
+      <Engine power="1.412" consumption="46.0" size="0.60" turn="0.0" fuelType="3" />
+      <Tank fuel="0.0" dryMass="0.50" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true"/>
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="SRB-0" name="SRB 650" description="High power but huge fuel consumption SRB engine." sprite="SRB.png" type="engine" mass="0.5" width="4" height="2" category="Solid Rocket Boosters">
+      <Engine power="7.647" consumption="256.633" size="1.30" turn="0.0" fuelType="3" />
+      <Tank fuel="0.0" dryMass="0.50" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true"/>
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="SRB-2" name="Sepatron 18" description="Small booster to send your ship flying." sprite="Sepatron.png" type="engine" mass="0.115625" width="1" height="3" category="Solid Rocket Boosters" ignoreEditorIntersections="true">
+      <Engine power="0.21176470588" consumption="7.1068" size="0.30" turn="0.0" fuelType="3" />
+      <Tank fuel="46.875" dryMass="0.021875" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true"/>
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="engine-2" name="Blasto 170" description="Good for take-offs and orbits. It's a solid engine." sprite="Blasto170.png" type="engine" mass="1.25" width="4" height="6">
+      <Engine power="2.0" consumption="46.8" size="0.55" turn="3.0" />
+      <Shape>
+         <Vertex x="-0.9" y="-3.0" />
+         <Vertex x="0.9" y="-3.0" />
+         <Vertex x="2.0" y="3.0" />
+         <Vertex x="-2.0" y="3.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+         <AttachPoint location="BottomCenter" order="2" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="engine-4" name="Blasto 255" description="Same as Blasto 170, but it has more power." sprite="Blasto255.png" type="engine" mass="1.50" width="4" height="6">
+      <Engine power="3.0" consumption="70.214" size="0.8" turn="1.0" />
+      <Shape>
+         <Vertex x="-0.9" y="-3.0" />
+         <Vertex x="0.9" y="-3.0" />
+         <Vertex x="2.0" y="3.0" />
+         <Vertex x="-2.0" y="3.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+         <AttachPoint location="BottomCenter" order="2" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="engine-10" name="NERVA 60" description="Weak, but really fuel efficient nuclear engine." sprite="nuclear engine.png" type="engine" mass="2.0" width="4" height="8">
+      <Engine power="0.706" consumption="7.6" size="0.6" turn="2.0" />
+      <Shape>
+         <Vertex x="-0.9" y="-4.0" />
+         <Vertex x="0.9" y="-4.0" />
+         <Vertex x="2.0" y="4.0" />
+         <Vertex x="-2.0" y="4.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+         <AttachPoint location="BottomCenter" order="2" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="engine-3" name="Guzzler 425" description="Great for taking off but it guzzles fuel like a monster." sprite="blasto 425.png" type="engine" mass="2.0" width="4" height="8">
+      <Engine power="5.0" consumption="117.104" size="1.0" turn="2.5" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+         <AttachPoint location="BottomCenter" order="2" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="engine-12" name="Carrier 280" description="Great for pushing payloads into orbit." sprite="Blasto 375.png" type="engine" mass="1.50" width="8" height="3">
+      <Engine power="3.3" consumption="73.18" size="1.0" turn="4.0" />
+      <Shape>
+         <Vertex x="-1.75" y="-1.5" />
+         <Vertex x="1.75" y="-1.5" />
+         <Vertex x="4.0" y="1.0" />
+         <Vertex x="4.0" y="1.5" />
+         <Vertex x="-4.0" y="1.5" />
+         <Vertex x="-4.0" y="1.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+         <AttachPoint location="BottomCenter" order="2" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="engine-5" name="Rhino 1275" description="Big and powerful engine used to lift large rockets." sprite="Blasto 1275.png" type="engine" mass="10.0" width="8" height="8">
+      <Engine power="15.0" consumption="360.995" size="2.5" turn="2.0" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+         <AttachPoint location="BottomCenter" order="2" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="engine-13" name="Mammoth x5      2200" description="Currently largest engine. It is composed of 5 smaller engines" sprite="Blasto 2200.png" type="engine" mass="16.0" width="8" height="8">
+      <Engine power="25.882" consumption="622.944" size="2.5" turn="3.0" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" order="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="parachute-1" name="Parachute" description="Land safely, but only works in an atmosphere." sprite="Parachutenew.png" type="parachute" mass="0.25" width="4" height="1" canExplode="false">
+      <AttachPoints>
+         <AttachPoint location="BottomCenter" breakAngle="90" breakForce="150.0" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="parachute-2" name="Advanced Radial Chute" description="Way more durable parachute." sprite="AdvancedParachuteCanister.png" type="parachute" mass="0.50" width="4" height="1" canExplode="false">
+      <AttachPoints>
+         <AttachPoint location="TopCenter" breakAngle="120" breakForce="200.0" />
+         <AttachPoint location="BottomCenter" breakAngle="120" breakForce="200.0" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="nosecone-2" name="Tiny Nose Cone" description="Tiny Nose Cone that reduces drag a little." sprite="TinyNoseCone.png" type="nosecone" mass="0.0125" width="2" height="1" drag="-0.5" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-1.0" y="-0.5" />
+         <Vertex x="1.0" y="-0.5" />
+         <Vertex x="0.1" y="0.5" />
+         <Vertex x="-0.1" y="0.5" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="Bottom" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="nosecone-1" name="Medium Nose Cone" description="Reduces drag a little for those bulky fuel tanks." sprite="NewNosecone.png" type="nosecone" mass="0.05" width="4" height="2" drag="-1.0" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-2.0" y="-1.5" />
+         <Vertex x="2.0" y="-1.5" />
+         <Vertex x="0.6" y="0.6" />
+         <Vertex x="-0.6" y="0.6" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="Bottom" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="nosecone-3" name="Large Nose Cone" description="Large Nose Cone that reduces drag." sprite="LargeNoseCone.png" type="nosecone" mass="1.2" width="8" height="10" drag="-8.0" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-4.0" y="-2.0" />
+         <Vertex x="4.0" y="-2.0" />
+         <Vertex x="0.1" y="2.0" />
+         <Vertex x="-0.1" y="2.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="Bottom" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="wing-1" name="Aerodynamic Fin" description="Effective fin used to reduce drag in the atmosphere." sprite="WingNew.png" type="nosecone" mass="0.025" width="2" height="3" drag="-0.5" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-1.0" y="-1.5" />
+         <Vertex x="1.0" y="-1.5" />
+         <Vertex x="1.0" y="1.5" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" group="1" />
+         <AttachPoint location="RightSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fairing-3" name="Medium Fairing" description="Small fairing that lowers drag." sprite="FairingMedium.png" type="detacher" mass="0.05" width="2" height="4" drag="-1.0" ignoreEditorIntersections="true" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-1.0" y="-2.0" />
+         <Vertex x="-1.0" y="2.0" />
+         <Vertex x="-2.0" y="2.0" />
+         <Vertex x="-2.0" y="-2.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" group="1" />
+         <AttachPoint location="RightSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fairing-5" name="Medium Fairing Extender" description="Small fairing extender. Use this to extend your fairing." sprite="FairingMediumExtender.png" type="detacher" mass="0.085" width="2" height="8" drag="-0.5" ignoreEditorIntersections="true" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-1.0" y="-4.0" />
+         <Vertex x="-1.0" y="4.0" />
+         <Vertex x="-2.0" y="4.0" />
+         <Vertex x="-2.0" y="-4.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" group="1" />
+         <AttachPoint location="RightSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fairing-2" name="Large Fairing" description="Large fairing that lowers drag. Used to cover payloads." sprite="FairingLarge.png" type="detacher" mass="0.45" width="4" height="8" drag="-4.0" ignoreEditorIntersections="true" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-2.0" y="-4.0" />
+         <Vertex x="-2.0" y="4.0" />
+         <Vertex x="-3.0" y="4.0" />
+         <Vertex x="-3.0" y="-4.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" group="1" />
+         <AttachPoint location="RightSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fairing-6" name="Large Fairing Extender" description="Large fairing extender that is used to extend the leght of your fairing." sprite="FairingLargeExtender.png" type="detacher" mass="0.80" width="4" height="8" drag="-2.0" ignoreEditorIntersections="true" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-2.0" y="-4.0" />
+         <Vertex x="-2.0" y="4.0" />
+         <Vertex x="-3.0" y="4.0" />
+         <Vertex x="-3.0" y="-4.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" group="1" />
+         <AttachPoint location="RightSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fairing-9" name="Large Fairing   Adapter" description="Use this to put your large fairing on smaller rockets." sprite="FairingLargeAdapter.png" type="detacher" mass="0.30" width="4" height="4" drag="-1.0" ignoreEditorIntersections="true" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-2.0" y="-2.0" />
+         <Vertex x="-2.0" y="2.0" />
+         <Vertex x="-3.0" y="2.0" />
+         <Vertex x="-3.0" y="-2.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" group="1" />
+         <AttachPoint location="RightSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fairing-4" name="Huge Fairing" description="Huge fairing that is used to cover large payloads." sprite="FairingHuge.png" type="detacher" mass="4.0" width="8" height="16" drag="-16.0" ignoreEditorIntersections="true" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-4.0" y="-8.0" />
+         <Vertex x="-4.0" y="8.0" />
+         <Vertex x="-5.0" y="8.0" />
+         <Vertex x="-5.0" y="-8.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" breakAngle="20" breakForce="150.0" group="1" />
+         <AttachPoint location="RightSide" breakAngle="20" breakForce="150.0" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fairing-7" name="Huge Fairing   Extender" description="Huge fairing extender is used to extend your fairing." sprite="FairingHugeExtender.png" type="detacher" mass="7.2" width="8" height="16" drag="-8.0" ignoreEditorIntersections="true" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-4.0" y="-8.0" />
+         <Vertex x="-4.0" y="8.0" />
+         <Vertex x="-5.0" y="8.0" />
+         <Vertex x="-5.0" y="-8.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" breakAngle="20" breakForce="150.0" group="1" />
+         <AttachPoint location="RightSide" breakAngle="20" breakForce="150.0" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fairing-8" name="Huge Fairing   Adapter" description="Use this to put your huge fairing on smaller rocket." sprite="FairingHugeAdapter.png" type="detacher" mass="2.65" width="8" height="8" drag="-4.0" ignoreEditorIntersections="true" category="Aerodynamics">
+      <Shape>
+         <Vertex x="-4.0" y="-4.0" />
+         <Vertex x="-4.0" y="4.0" />
+         <Vertex x="-5.0" y="4.0" />
+         <Vertex x="-5.0" y="-4.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" breakAngle="20" breakForce="150.0" group="1" />
+         <AttachPoint location="RightSide" breakAngle="20" breakForce="150.0" group="1" />
+      </AttachPoints>
+   </PartType>
+
+
+   <PartType id="solar-2" name="Solar Panel" description="Solar panel that generates electricity." sprite="solar panel.png" type="solar" mass="0.2" width="3" height="4" ignoreEditorIntersections="true" hidden="true">
+      <Solar chargeRate="2.0" />
+      <Damage disconnect="250" explode="3000" explosionPower="1" explosionSize="5" />
+      <AttachPoints>
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="RightSide" flipX="true" />
+         <AttachPoint location="LeftSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="battery-0" name="Z-250 Battery Pack" description="Batteries can be recharged by solar panels." sprite="BatteryMedium.png" type="tank" mass="1.25" width="4" height="1" category="Satellite" sandboxOnly="true">
+      <Tank fuel="250.0" dryMass="1.24" fuelType="2" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="battery-1" name="Z-100 Radial Mounted Battery" description="Batteries can be recharged by solar panels." sprite="BatteryRadial.png" type="tank" mass="0.5" width="1" height="2" category="Satellite" sandboxOnly="true">
+      <Tank fuel="100.0" dryMass="0.49" fuelType="2" />
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" group="1" />
+         <AttachPoint location="RightSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="solar-1" name="Expanding Solar Panel" description="Expanding solar panel." sprite="SolarPanelBase.png" type="solar" mass="1.0" width="1" height="4" category="Satellite" sandboxOnly="true">
+      <Solar chargeRate="2.0" />
+      <Damage disconnect="250" explode="3000" explosionPower="1" explosionSize="5" />
+      <AttachPoints>
+         <AttachPoint location="RightSide" flipX="true" group="1" />
+         <AttachPoint location="LeftSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="solar-3" name="Huge Solar Panel" description="Solar panel that generates electricity.Cannot be rectracted." sprite="hugesolarpanel.png" type="solar" mass="1.95" width="2" height="6" ignoreEditorIntersections="true" category="Satellite" sandboxOnly="true">
+      <Solar chargeRate="4.0" />
+      <Damage disconnect="250" explode="3000" explosionPower="1" explosionSize="5" />
+      <Shape>
+         <Vertex x="17.0" y="-3.0" />
+         <Vertex x="-1.0" y="-3.0" />
+         <Vertex x="-1.0" y="3.0" />
+         <Vertex x="17.0" y="3.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="RightSide" flipX="true" />
+         <AttachPoint location="LeftSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="rcs-2" name="Tiny RCS Thrusters   1" description="Gentle reaction control system for careful maneuvering." sprite="MiniRCS.png" type="rcs" mass="0.1625" width="1" height="2"  category="Control" disableEditorRotation="false" hidden="false">
+      <Rcs power="0.1" consumption="0.007394262052" size="0.25" />
+      <AttachPoints>
+         <AttachPoint location="RightSide" flipX="true" group="1" />
+         <AttachPoint location="LeftSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+
+   <PartType id="rcs-1" name="RCS Thrusters 10" description="Powerful reaction control system for maneuvering big ships." sprite="RCSmedium.png" type="rcs" mass="0.25" width="1" height="3"  category="Control" disableEditorRotation="false">
+      <Rcs power="1.0" consumption="0.07394262052" size="1.00" />
+      <AttachPoints>
+         <AttachPoint location="RightSide" flipX="true" group="1" />
+         <AttachPoint location="LeftSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="dock-1" name="Docking Plug" description="Five max per ship. Connects to a docking port." sprite="DPlug.png" type="dockconnector" mass="0.25" width="2" height="1" friction="0.1" maxOccurrences="5" canExplode="false">
+      <Shape>
+         <Vertex x="-1.0" y="-0.5" />
+         <Vertex x="1.0" y="-0.5" />
+         <Vertex x="1.0" y="-0.1" />
+         <Vertex x="0.4" y="0.5" />
+         <Vertex x="-0.4" y="0.5" />
+         <Vertex x="-1.0" y="-0.1" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="BottomCenter" breakAngle="90" breakForce="150.0" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="port-1" name="Docking Port" description="Accepts a docking plug for docking in space." sprite="DockingPort.png" type="dockport" mass="0.75" width="2" height="4" friction="0.1">
+      <Shape>
+         <Vertex x="-0.2" y="-2.0" />
+         <Vertex x="1.0" y="-2.0" />
+         <Vertex x="1.0" y="2.0" />
+         <Vertex x="-0.2" y="2.0" />
+      </Shape>
+      <Shape>
+         <Vertex x="-1.0" y="-2.0" />
+         <Vertex x="0.0" y="-2.0" />
+         <Vertex x="0.0" y="-0.1" />
+         <Vertex x="-1.0" y="-1.10" />
+      </Shape>
+      <Shape>
+         <Vertex x="-1.0" y="1.10" />
+         <Vertex x="0.0" y="0.1" />
+         <Vertex x="0.0" y="2.0" />
+         <Vertex x="-1.0" y="2.0" />
+      </Shape>
+      <Shape sensor="true">
+         <Vertex x="-0.33" y="-1.0" />
+         <Vertex x="-0.2" y="-1.0" />
+         <Vertex x="-0.2" y="1.0" />
+         <Vertex x="-0.33" y="1.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="RightSide" />
+         <AttachPoint location="LeftSide" flipX="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="science-1" name="Science Module" description="Science Box - All in one." sprite="ScienceModule.png" type="strut" mass="0.125" width="1" height="1" category="Science" ignoreEditorIntersections="true">
+      <AttachPoints>
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="science-5" name="Environmental   sensor" description="Sensor for precious environment analyzing." sprite="MisteryGoo.png" type="strut" mass="0.3" width="1" height="3" category="Science">
+      <AttachPoints>
+         <AttachPoint location="RightSide" flipX="true" group="1" />
+         <AttachPoint location="LeftSide" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="science-2" name="Materials Bay" description="In case you are landing and wanting to examine that planet." sprite="MaterialsBay.png" type="fuselage" mass="0.4" width="4" height="4" category="Science">
+      <AttachPoints>
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="Science-3" name="Mobile Lab" description="Scientific module used to do research in space." sprite="LabModule.png" type="tank" mass="8.0" width="8" height="16" category="Science">
+   <Tank fuel="375.0" dryMass="7.25" fuelType="1" />
+      <AttachPoints>
+         <AttachPoint location="Top" />
+         <AttachPoint location="Bottom" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="antenna-1" name="Antenna" description="Antenna that is used to transport data." sprite="antena.png" type="strut" mass="0.3125" width="1" height="5" ignoreEditorIntersections="true" category="Science">
+      <AttachPoints>
+         <AttachPoint location="Bottom" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="comdish-1" name="Communication   Dish" description="Dish that is used to transport scientific data from far away." sprite="comdish.png" type="strut" mass="0.80" width="8" height="3" category="Science">
+      <Shape>
+         <Vertex x="0" y="-1.5" />
+         <Vertex x="4.0" y="0" />
+         <Vertex x="0" y="1.5" />
+         <Vertex x="-4.0" y="0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="BottomCenter" />
+      </AttachPoints>
+   </PartType>
+
+  <PartType id="Bomb-1" name="Bomb" description="Used to blow stuff up. Also works as a detacher" sprite="Bomb.png" type="detacher" mass="0.5" width="1" height="4" category="Gizmos" hidden="true">
+     <Damage disconnect="2500" explode="75" explosionPower="250000" explosionSize="250" />
+      <AttachPoints>
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="lander-1" name="Lander" description="Activate these babies to make landing a little easier." sprite="LanderLegPreview.png" type="lander" mass="0.5" width="1" height="5" ignoreEditorIntersections="true">
+      <Lander maxAngle="140" minLength="2.26" maxLength="4.15" angleSpeed="25" lengthSpeed="0.5" width="0.5" />
+      <AttachPoints>
+         <AttachPoint location="LeftCenter" group="1" />
+         <AttachPoint location="RightCenter" group="1" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="lander-2" name="Vertical Lander" description="Vertically deploying lander makes landing extra easy." sprite="LanderLegPreview.png" type="lander" mass="0.5" width="1" height="5" ignoreEditorIntersections="true">
+      <Lander maxAngle="15" minLength="2.26" maxLength="4.15" angleSpeed="12.5" lengthSpeed="2.5" width="0.5" />
+      <AttachPoints>
+         <AttachPoint location="LeftCenter" group="1" />
+         <AttachPoint location="RightCenter" group="1" />
+      </AttachPoints>
+   </PartType>
+</PartTypes>
