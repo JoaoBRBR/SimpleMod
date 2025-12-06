@@ -43,7 +43,7 @@
          <AttachPoint location="RightSide" />
       </AttachPoints>
    </PartType>
-   <PartType id="fuselage-2" name="Adaptor" description="WIP" sprite="WideAdaptor.png" type="fuselage" mass="0.25" width="8" height="6" buoyancy="1.0" drag="-1.0">
+   <PartType id="fuselage-2" name="Adaptor" description="WIP" sprite="WideAdaptor.png" type="fuselage" mass="0.25" width="8" height="3" buoyancy="1.0" drag="-1.0">
       <Shape>
          <Vertex x="-4.0" y="-2.0" />
          <Vertex x="4.0" y="-2.0" />
@@ -53,8 +53,6 @@
       <AttachPoints>
          <AttachPoint location="Top" fuelLine="true" />
          <AttachPoint location="Bottom" fuelLine="true" />
-         <AttachPoint location="LeftSide" />
-         <AttachPoint location="RightSide" />
       </AttachPoints>
    </PartType>
    <PartType id="strut-1" name="Strut" description="Light weight and strong." sprite="Beam.png" type="strut" mass="2.0" width="16" height="2" canExplode="false" buoyancy="0.5">
@@ -259,6 +257,7 @@
          <Vertex x="2.0" y="2.0" />
       </Shape>
       <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" />
          <AttachPoint location="RightSide" />
       </AttachPoints>
    </PartType>
