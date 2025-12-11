@@ -262,6 +262,17 @@
          <AttachPoint location="BottomCenter" order="2" />
       </AttachPoints>
    </PartType>
+
+   <PartType id="engine-6" name="separator 2000" description="Good for take-offs and orbits. It's a solid engine." sprite="smallSolidRocket.png" type="engine" mass="0.4" width="1" height="4" buoyancy="0.5">
+      <Engine power="0.5" consumption="175" size="0.4" turn="1.0" fuelType="3" />
+      <Tank fuel="500.0" dryMass="0.15" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" />
+         <AttachPoint location="LeftCenter" />
+         <AttachPoint location="RightCenter" />
+         <AttachPoint location="BottomCenter" />
+      </AttachPoints>
+   </PartType>
    
    <PartType id="ion-0" name="Ion Engine" description="Low power, high efficiency and powered by batteries." sprite="EngineIon.png" type="engine" mass="0.5" width="4" height="2" buoyancy="0.5" sandboxOnly="true">
       <Engine power="0.10" consumption="4.00" size="0.3" turn="10.0" throttleExponential="false" fuelType="2" />

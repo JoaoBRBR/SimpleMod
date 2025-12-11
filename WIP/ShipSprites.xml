@@ -59,4 +59,5 @@ r => 'y' only set if sprite is rotated
     <sprite n="suspensionLeg.png" x="771" y="335" w="63" h="89"/>
     <sprite n="Wheel2.png" x="960" y="470" w="122" h="122"/>
     <sprite n="roverModule.png" x="952" y="600" w="245" h="230"/>
+    <sprite n="smallSolidRocket.png" x="925" y="7" w="49" h="105"/>
 </TextureAtlas>
