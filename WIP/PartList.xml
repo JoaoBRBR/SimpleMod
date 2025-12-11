@@ -1,5 +1,5 @@
 ﻿<PartTypes xmlns="http://jundroo.com/simplerockets/partlist.xsd">
-   <PartType id="pod-1" name="Command Pod Mk1" description="This is your ship's brain. Be careful with it." sprite="Pod.png" type="pod" mass="1.0" width="4" height="3">
+   <PartType id="pod-1" name="Command Pod Mk1" description="This is your ship's brain. Be careful with it." sprite="Pod.png" type="pod" mass="1.0" width="4" height="3" ignoreEditorIntersections="true">
       <Damage disconnect="1500" explode="1500" explosionPower="5" explosionSize="10" />
       <Shape>
          <!-- Must be counter clockwise -->
@@ -10,7 +10,33 @@
       </Shape>
       <AttachPoints>
          <AttachPoint location="TopCenter" />
+         <AttachPoint x="0" y="0" breakAngle="180" />
          <AttachPoint location="BottomCenter" />
+      </AttachPoints>
+   </PartType>
+   <PartType id="pod-2" name="Command Pod Mk2" description="This is your ship's brain. Be careful with it." sprite="Pod2.png" type="fuselage" mass="1.0" width="8" height="7" ignoreEditorIntersections="true" >
+      <Damage disconnect="1500" explode="1500" explosionPower="5" explosionSize="10" />
+      <Shape>
+         <!-- Must be counter clockwise -->
+         <Vertex x="-4.0" y="-4.0" />
+         <Vertex x="4.0" y="-4.0" />
+         <Vertex x="2.0" y="3.0" />
+         <Vertex x="-2.0" y="3.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="TopCenter"/>
+         <AttachPoint x="0" y="0" breakAngle="180" />
+         <AttachPoint location="Bottom" />
+      </AttachPoints>
+   </PartType>
+   <PartType id="pod-3" name="Command Pod Mk3" description="This is your ship's brain. Be careful with it." sprite="RoverPod.png" type="fuselage" mass="1.0" width="8" height="6" ignoreEditorIntersections="true" >
+      <Damage disconnect="1500" explode="1500" explosionPower="5" explosionSize="10" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter"/>
+         <AttachPoint x="0" y="0" breakAngle="180" />
+         <AttachPoint location="LeftSide" />
+         <AttachPoint location="RightSide" />
+         <AttachPoint location="Bottom" />
       </AttachPoints>
    </PartType>
    <PartType id="detacher-1" name="Detacher" description="Use this to split your ship into stages." sprite="DetacherVertical.png" type="detacher" mass="0.25" width="4" height="1">
@@ -31,6 +57,11 @@
       </AttachPoints>
    </PartType>
    <PartType id="wheel-2" name="Wheel" description="Your turn buttons can control these wheels." sprite="Wheel.png" type="wheel" mass="0.25" width="4" height="4" ignoreEditorIntersections="true" disableEditorRotation="true" buoyancy="1.0">
+      <AttachPoints>
+         <AttachPoint x="0" y="0" breakAngle="180" />
+      </AttachPoints>
+   </PartType>
+   <PartType id="wheel-3" name="Rover Wheel" description="Your turn buttons can control these wheels." sprite="Wheel2.png" type="wheel" mass="0.25" width="4" height="4" ignoreEditorIntersections="true" disableEditorRotation="true" buoyancy="3.0">
       <AttachPoints>
          <AttachPoint x="0" y="0" breakAngle="180" />
       </AttachPoints>
@@ -63,7 +94,22 @@
          <AttachPoint location="RightSide" breakAngle="20" breakForce="150.0" />
       </AttachPoints>
    </PartType>
-
+      <PartType id="strut-2" name="SuspensionLeg" description="Light weight and strong." sprite="suspensionLeg.png" type="strut" mass="0.4" width="2" height="3" canExplode="false" buoyancy="0.5" ignoreEditorIntersections="true">
+      <AttachPoints>
+         <AttachPoint location="TopCenter" breakAngle="20" breakForce="150.0" />
+         <AttachPoint location="BottomCenter" breakAngle="20" breakForce="150.0" />
+      </AttachPoints>
+   </PartType>
+   <PartType id="module-0" name="Rover Module" description="The smallest tank on the market." sprite="roverModule.png" type="tank" mass="1.85" width="8" height="7">
+      <Tank fuel="500.0" dryMass="0.4" fuelType="0"/>
+      <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="4" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
    <PartType id="fueltank-0" name="Sloshy T750" description="The smallest tank on the market." sprite="TankTiny.png" type="tank" mass="1.85" width="4" height="2">
       <Tank fuel="750.0" dryMass="0.35" />
       <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
@@ -249,12 +295,23 @@
       </AttachPoints>
    </PartType>
 
-   <PartType id="wing-1" name="small wing" description="WIP" sprite="Wing.png" type="nosecone" mass="0.02" width="4" height="4" drag="-2.0">
-      <Engine power="0.0" consumption="0" size="0.0" turn="3.0" />
+   <PartType id="wing-1" name="small wing" description="WIP" sprite="Wing.png" type="wing" mass="0.02" width="4" height="4" drag="-3.0" ignoreEditorIntersections="true">
       <Shape>
          <Vertex x="-2.0" y="-1.0" />
          <Vertex x="2.0" y="-1.0" />
          <Vertex x="2.0" y="2.0" />
+      </Shape>
+      <AttachPoints>
+         <AttachPoint location="LeftSide" flipX="true" />
+         <AttachPoint location="RightSide" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="wing-2" name="big wing" description="WIP" sprite="Wing2.png" type="wing" mass="1.00" width="5" height="11" drag="-8.0" ignoreEditorIntersections="true">
+      <Shape>
+         <Vertex x="-2.0" y="-5.0" />
+         <Vertex x="2.0" y="-5.0" />
+         <Vertex x="2.0" y="5.0" />
       </Shape>
       <AttachPoints>
          <AttachPoint location="LeftSide" flipX="true" />

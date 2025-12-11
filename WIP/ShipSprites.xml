@@ -13,7 +13,7 @@ oW => sprite's original width (only available if trimmed)
 oH => sprite's original height (only available if trimmed)
 r => 'y' only set if sprite is rotated
 -->
-<TextureAtlas imagePath="ShipSprites.png" width="1024" height="1024">
+<TextureAtlas imagePath="ShipSprites.png" width="2048" height="1024">
     <sprite n="Battery.png" x="278" y="281" w="129" h="30"/>
     <sprite n="Beam.PNG" x="292" y="2" w="480" h="62"/>
     <sprite n="CoverBottom.png" x="283" y="128" w="133" h="27"/>
@@ -40,6 +40,8 @@ r => 'y' only set if sprite is rotated
     <sprite n="ParachuteCanister.PNG" x="200" y="974" w="90" h="32"/>
     <sprite n="ParachuteCanisterSide.png" x="210" y="768" w="32" h="90"/>
     <sprite n="Pod.PNG" x="283" y="157" w="132" h="90"/>
+    <sprite n="Pod2.png" x="1030" y="13" w="242" h="240"/>
+    <sprite n="RoverPod.png" x="1022" y="261" w="240" h="195"/>
     <sprite n="Puffy750.png" x="292" y="66" w="133" h="60"/>
     <sprite n="RcsBlock.png" x="242" y="114" w="39" h="97"/>
     <sprite n="SideTank.png" x="131" y="124" w="39" h="97"/>
@@ -53,4 +55,8 @@ r => 'y' only set if sprite is rotated
     <sprite n="TankTiny.png" x="292" y="947" w="133" h="60"/>
     <sprite n="Wheel.png" x="893" y="124" w="120" h="120"/>
     <sprite n="Wing.png" x="874" y="318" w="119" h="120"/>
+    <sprite n="Wing2.png" x="1287" y="12" w="163" h="346"/>
+    <sprite n="suspensionLeg.png" x="771" y="335" w="63" h="89"/>
+    <sprite n="Wheel2.png" x="960" y="470" w="122" h="122"/>
+    <sprite n="roverModule.png" x="952" y="600" w="245" h="230"/>
 </TextureAtlas>
