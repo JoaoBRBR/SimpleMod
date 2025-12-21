@@ -28,10 +28,11 @@
          <AttachPoint location="Bottom" />
       </AttachPoints>
    </PartType>
-   <PartType id="pod-3" name="Command Pod Mk3" description="This is your ship's brain. Be careful with it." sprite="RoverPod.png" type="fuselage" mass="1.0" width="8" height="6" ignoreEditorIntersections="true" >
+   <PartType id="pod-3" name="Lander can" description="WIP" sprite="RoverPod.png" type="fuselage" mass="0.2" width="4" height="5" ignoreEditorIntersections="true" >
       <Damage disconnect="1500" explode="1500" explosionPower="5" explosionSize="10" />
+      <Tank fuel="100.0" dryMass="0.5" fuelType="1" />
       <AttachPoints>
-         <AttachPoint location="TopCenter"/>
+         <AttachPoint location="Top"/>
          <AttachPoint x="0" y="0" breakAngle="180" />
          <AttachPoint location="LeftSide" />
          <AttachPoint location="RightSide" />
@@ -89,6 +90,22 @@
       <AttachPoints>
          <AttachPoint location="Top" fuelLine="true" />
          <AttachPoint location="Bottom" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+   <PartType id="fuselage-3" name="Antenna1" description="WIP" sprite="Antenna1.png" type="fuselage" mass="0.1" width="4" height="7" buoyancy="1.0">
+      <AttachPoints>
+         <AttachPoint location="Bottom"/>
+      </AttachPoints>
+   </PartType>
+   <PartType id="fuselage-4" name="Antenna2" description="WIP" sprite="Antenna2.png" type="fuselage" mass="0.1" width="7" height="12" buoyancy="1.0">
+      <AttachPoints>
+         <AttachPoint location="Top" flipY="true"/>
+         <AttachPoint location="Bottom"/>
+      </AttachPoints>
+   </PartType>
+   <PartType id="fuselage-5" name="Antenna3" description="WIP" sprite="Antenna3.png" type="fuselage" mass="0.1" width="2" height="10" buoyancy="1.0">
+      <AttachPoints>
+         <AttachPoint location="Bottom"/>
       </AttachPoints>
    </PartType>
    <PartType id="strut-1" name="Strut" description="Light weight and strong." sprite="Beam.png" type="strut" mass="2.0" width="16" height="2" canExplode="false" buoyancy="0.5">
@@ -156,6 +173,7 @@
       </AttachPoints>
    </PartType>
    
+   <!-- dd -->
    <PartType id="fueltank-4" name="Puffy T750" description="Monopropellant for RCS thrusters." sprite="Puffy750.png" type="tank" mass="1.85" width="4" height="2" category="Satellite">
       <Tank fuel="750.0" dryMass="0.35" fuelType="1" />
       <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
@@ -176,8 +194,8 @@
       </AttachPoints>
    </PartType>
 
-   <PartType id="fueltank-6" name="Wide 300" description="WIP" sprite="WideTankLarge.png" type="tank" mass="23.2" width="8" height="20">
-      <Tank fuel="12000.0" dryMass="2.0" />
+   <PartType id="fueltank-7" name="Wide 3000" description="WIP" sprite="WideTankSmall.png" type="tank" mass="6.4" width="8" height="4">
+      <Tank fuel="3000.0" dryMass="1.0" />
       <Damage disconnect="3500" explode="1000" explosionPower="4" explosionSize="20" />
       <AttachPoints>
          <AttachPoint location="TopCenter" fuelLine="true" />
@@ -187,8 +205,19 @@
       </AttachPoints>
    </PartType>
 
-   <PartType id="fueltank-7" name="Wide22d" description="WIP" sprite="WideTankSmall.png" type="tank" mass="23.2" width="8" height="4">
-      <Tank fuel="12000.0" dryMass="2.0" />
+   <PartType id="fueltank-8" name="Wide T7000" description="Has a lot of fuel, but is extremely fragile, be careful!" sprite="WideTankMedium.png" type="tank" mass="16.0" width="8" height="8">
+      <Tank fuel="7000.0" dryMass="4.0" />
+      <Damage disconnect="200" explode="100" explosionPower="6" explosionSize="40" />
+      <AttachPoints>
+         <AttachPoint location="TopCenter" fuelLine="true" />
+         <AttachPoint location="Bottom" fuelLine="true" />
+         <AttachPoint location="LeftSide" fuelLine="true" />
+         <AttachPoint location="RightSide" fuelLine="true" />
+      </AttachPoints>
+   </PartType>
+
+   <PartType id="fueltank-9" name="Wide T10500" description="WIP" sprite="WideTankModerate.png" type="tank" mass="19.0" width="8" height="12">
+      <Tank fuel="9000.0" dryMass="5.0"/>
       <Damage disconnect="3500" explode="1000" explosionPower="4" explosionSize="20" />
       <AttachPoints>
          <AttachPoint location="TopCenter" fuelLine="true" />
@@ -198,8 +227,8 @@
       </AttachPoints>
    </PartType>
 
-   <PartType id="fueltank-8" name="Widedawdd" description="WIP" sprite="WideTankMedium.png" type="tank" mass="23.2" width="8" height="8">
-      <Tank fuel="12000.0" dryMass="2.0" />
+   <PartType id="fueltank-6" name="Wide 15000" description="WIP" sprite="WideTankLarge.png" type="tank" mass="32.0" width="8" height="20">
+      <Tank fuel="15000.0" dryMass="5.0" />
       <Damage disconnect="3500" explode="1000" explosionPower="4" explosionSize="20" />
       <AttachPoints>
          <AttachPoint location="TopCenter" fuelLine="true" />
@@ -209,19 +238,8 @@
       </AttachPoints>
    </PartType>
 
-   <PartType id="fueltank-9" name="Widedawddmoderate" description="WIP" sprite="WideTankModerate.png" type="tank" mass="23.2" width="8" height="12">
-      <Tank fuel="12000.0" dryMass="2.0" />
-      <Damage disconnect="3500" explode="1000" explosionPower="4" explosionSize="20" />
-      <AttachPoints>
-         <AttachPoint location="TopCenter" fuelLine="true" />
-         <AttachPoint location="Bottom" fuelLine="true" />
-         <AttachPoint location="LeftSide" fuelLine="true" />
-         <AttachPoint location="RightSide" fuelLine="true" />
-      </AttachPoints>
-   </PartType>
-
-   <PartType id="fueltank-10" name="Puffy111" description="WIP" sprite="Puffy111.png" type="tank" mass="1.85" width="4" height="4" category="Satellite">
-      <Tank fuel="750.0" dryMass="0.35" fuelType="1" />
+   <PartType id="fueltank-10" name="Puffy1500" description="WIP" sprite="Puffy1500.png" type="tank" mass="2.10" width="4" height="4" category="Satellite">
+      <Tank fuel="1500.0" dryMass="0.35" fuelType="1" />
       <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
       <AttachPoints>
          <AttachPoint location="TopCenter" />
@@ -231,7 +249,7 @@
       </AttachPoints>
    </PartType>
 
-   <PartType id="fueltank-11" name="Puffy222" description="WIP" sprite="Puffy222.png" type="tank" mass="1.85" width="4" height="8" category="Satellite">
+   <!-- <PartType id="fueltank-11" name="Puffy222" description="WIP" sprite="Puffy222.png" type="tank" mass="1.85" width="4" height="8" category="Satellite">
       <Tank fuel="750.0" dryMass="0.35" fuelType="1" />
       <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
       <AttachPoints>
@@ -251,10 +269,11 @@
          <AttachPoint location="LeftSide" />
          <AttachPoint location="RightSide" />
       </AttachPoints>
-   </PartType>
+   </PartType> -->
 
-   <PartType id="fueltank-13" name="Puffy466" description="WIP" sprite="Puffy466.png" type="tank" mass="1.85" width="8" height="18" category="Satellite">
-      <Tank fuel="750.0" dryMass="0.35" fuelType="1" />
+   <!-- done -->
+   <PartType id="fueltank-13" name="Puffy13000" description="Monopropellant for a life time! Perfect for refueling stations." sprite="Puffy13000.png" type="tank" mass="28.8" width="8" height="18" category="Satellite">
+      <Tank fuel="13000" dryMass="1.00" fuelType="1" />
       <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
       <AttachPoints>
          <AttachPoint location="Top" />
@@ -435,6 +454,14 @@
          <AttachPoint location="LeftCenter" group="1" />
       </AttachPoints>
    </PartType>
+
+   <PartType id="rcs-2" name="Tiny RCS Thrusters" description="WIP" sprite="TinyRcsBlock.png" type="rcs" mass="0.2" width="0.5" height="1" category="Satellite" disableEditorRotation="true" buoyancy="0.5">
+      <Rcs power="0.3" consumption="0.06" size="0.50" />
+      <AttachPoints>
+         <AttachPoint location="RightCenter" flipX="true" group="1" />
+         <AttachPoint location="LeftCenter" group="1" />
+      </AttachPoints>
+   </PartType>
    
    <PartType id="solar-1" name="Solar Panel" description="Expanding solar panel." sprite="SolarPanelBase.png" type="solar" mass="1.0" width="1" height="4" category="Satellite" sandboxOnly="true">
       <Solar chargeRate="2.0" />
@@ -467,8 +494,8 @@
       </AttachPoints>
    </PartType>
 
-   <PartType id="battery-1" name="Batteries1" description="wip." sprite="Battery2.png" type="tank" mass="1.25" width="4" height="3" category="Satellite" sandboxOnly="true">
-      <Tank fuel="250.0" dryMass="1.24" fuelType="2" />
+   <PartType id="battery-1" name="Batteries1" description="wip." sprite="Battery2.png" type="tank" mass="3.05" width="4" height="3" category="Satellite" sandboxOnly="true">
+      <Tank fuel="650.0" dryMass="1.24" fuelType="2" />
       <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
       <AttachPoints>
          <AttachPoint location="TopCenter" />
@@ -478,7 +505,7 @@
       </AttachPoints>
    </PartType>
 
-   <PartType id="battery-2" name="Batteries2" description="wip." sprite="Battery3.png" type="tank" mass="1.25" width="8" height="12" category="Satellite" sandboxOnly="true">
+   <!-- <PartType id="battery-2" name="Batteries2" description="wip." sprite="Battery3.png" type="tank" mass="1.25" width="8" height="12" category="Satellite" sandboxOnly="true">
       <Tank fuel="250.0" dryMass="1.24" fuelType="2" />
       <Damage disconnect="2500" explode="2500" explosionPower="5" explosionSize="10" />
       <AttachPoints>
@@ -487,7 +514,7 @@
          <AttachPoint location="LeftSide" />
          <AttachPoint location="RightSide" />
       </AttachPoints>
-   </PartType>
+   </PartType> -->
 
    <PartType id="battery-4" name="Batteries3" description="wip." sprite="Battery4.png" type="tank" mass="1.25" width="1" height="3" category="Satellite" sandboxOnly="true">
       <Tank fuel="250.0" dryMass="1.24" fuelType="2" />

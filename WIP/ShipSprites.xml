@@ -41,10 +41,11 @@ r => 'y' only set if sprite is rotated
     <sprite n="ParachuteCanister.PNG" x="200" y="974" w="90" h="32"/>
     <sprite n="ParachuteCanisterSide.png" x="210" y="768" w="32" h="90"/>
     <sprite n="Pod.PNG" x="283" y="157" w="132" h="90"/>
-    <sprite n="Pod2.png" x="1030" y="13" w="242" h="240"/>
-    <sprite n="RoverPod.png" x="1022" y="261" w="240" h="195"/>
+    <sprite n="Pod2.png" x="1018" y="26" w="244" h="214"/>
+    <sprite n="RoverPod.png" x="1043" y="301" w="134" h="150"/>
     <sprite n="Puffy750.png" x="292" y="66" w="133" h="60"/>
     <sprite n="RcsBlock.png" x="242" y="114" w="39" h="97"/>
+    <sprite n="TinyRcsBlock.png" x="1200" y="390" w="15" h="30"/>
     <sprite n="SideTank.png" x="131" y="124" w="39" h="97"/>
     <sprite n="SolarPanel.png" x="210" y="2" w="80" h="110"/>
     <sprite n="SolarPanelBase.png" x="738" y="66" w="30" h="120"/>
@@ -64,15 +65,16 @@ r => 'y' only set if sprite is rotated
     <sprite n="landingLegWide.png" x="1460" y="5" w="240" h="240"/>
     <sprite n="blades.png" x="1715" y="12" w="268" h="76"/>
     <sprite n="WideTankSmall.png" x="690" y="810" w="240" h="120"/>
-    <sprite n="WideTankMedium.png" x="1230" y="480" w="240" h="240"/>
-    <sprite n="WideTankModerate.png" x="1500" y="360" w="240" h="360"/>
-    <sprite n="Puffy111.png" x="1710" y="120" w="120" h="120"/>
-    <sprite n="Puffy222.png" x="1860" y="120" w="120" h="240"/>
-    <sprite n="Puffy444.png" x="1800" y="390" w="240" h="240"/>
-    <sprite n="Puffy466.png" x="1230" y="750" w="540" h="240" r="y"/>
-    <sprite n="Battery2.png" x="1316" y="360" w="134" h="90"/>
-    <sprite n="Battery3.png" x="1800" y="660" w="240" h="360"/>
-    <sprite n="Battery4.png" x="1140" y="480" w="30" h="90"/>
+    <sprite n="WideTankMedium.png" x="1226" y="480" w="248" h="240"/>
+    <sprite n="WideTankModerate.png" x="1496" y="360" w="248" h="360"/>
+    <sprite n="Puffy1500.png" x="1705" y="120" w="130" h="120"/>
+    <sprite n="Puffy13000.png" x="1230" y="742" w="540" h="256" r="y"/>
+    <sprite n="Battery2.png" x="1316" y="360" w="128" h="90"/>
+    <sprite n="Battery4.png" x="1136" y="476" w="39" h="97"/>
     <sprite n="SolarPanel2.png" x="960" y="840" w="90" h="120"/>
     <sprite n="DetacherRadial2.png" x="690" y="960" w="240" h="30"/>
+    <sprite n="Antenna1.png" x="1782" y="240" w="156" h="210"/>
+    <sprite n="Antenna2.png" x="1796" y="480" w="245" h="360"/>
+    <sprite n="Antenna3.png" x="1950" y="150" w="60" h="300"/>
+    
 </TextureAtlas>

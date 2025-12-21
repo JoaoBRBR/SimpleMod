@@ -81,7 +81,8 @@
             <Terrain maxHeight="2500.0" noise="2.5" texture="PlanetCrustSmaturn.png" color="64,55,14" />
             <Atmosphere height="275000.0" surfacePressure="1.0" graphicType="7" />
             <Children>
-               <Planet name="Titan Jr" gravity="1.352" radius="257600" mapColor="254,215,84" icon="Moon.png" launchEnabled="false" description="One of the largest satellites, and the only moon known to have a dense atmosphere.">
+            <!-- launchEnabled="false" -->
+               <Planet name="Titan Jr" gravity="1.352" radius="257600" mapColor="254,215,84" icon="Moon.png"  description="One of the largest satellites, and the only moon known to have a dense atmosphere.">
                   <Orbit w="0.0" e="0.0288" prograde="1" a="122187000.0" v="1.0"/>
                   <Terrain maxHeight="1500.0" minHeight="-800.0" noise="3.5" texture="PlanetCrustTitan.png" color="160,86,26" waterDensity="75">
                      <Ranges>
