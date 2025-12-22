@@ -44,7 +44,8 @@
                </Planet>
             </Children>
          </Planet>
-         <Planet name="Smalley&apos;s Comet" gravity="0.010000" radius="8000.0" mapColor="208,35,35" icon="Moon.png" launchEnabled="false" description="It's just a big hunk of ice zipping around the Smolar System.">
+         <!-- launchEnabled="false" -->
+         <Planet name="Smalley&apos;s Comet" gravity="0.010000" radius="8000.0" mapColor="208,35,35" icon="Moon.png"  description="It's just a big hunk of ice zipping around the Smolar System.">
             <Orbit w="0.785" e="0.967" prograde="0" a="266284209846.0" v="-2.843225"/>
             <Terrain maxHeight="160.0" noise="35.0" texture="PlanetCrustHalley.png" color="240,240,240" />
          </Planet>         
@@ -58,21 +59,22 @@
             <Terrain maxHeight="5000.0" noise="2.5" texture="PlanetCrustSmupiter.png" color="67,53,41" />
             <Atmosphere height="125000.0" surfacePressure="1.0" graphicType="4" />
             <Children>
-               <Planet name="Ganymede Jr" gravity="1.428000" radius="263410" mapColor="145,130,135" icon="Moon.png" launchEnabled="false" description="The largest moon on the Smolar System.">
+            <!-- launchEnabled="false" -->
+               <Planet name="Ganymede Jr" gravity="1.428000" radius="263410" mapColor="145,130,135" icon="Moon.png"  description="The largest moon on the Smolar System.">
                   <Orbit w="0.0" e="0.0013" prograde="1" a="107040000.0" v="0.5"/>
-                  <Terrain maxHeight="500.0" noise="3.5" texture="PlanetCrustSmoon.png" color="35,35,35" />
+                  <Terrain maxHeight="500.0" noise="3.5" texture="PlanetCrustGanymede.png" color="163,87,52" />
                </Planet>
-               <Planet name="Europa Jr" gravity="1.314" radius="156000" mapColor="195,175,175" icon="Moon.png" launchEnabled="false" description="">
+               <Planet name="Europa Jr" gravity="1.314" radius="156000" mapColor="195,175,175" icon="Moon.png" description="">
                   <Orbit w="0.1" e="0.0009" prograde="1" a="67090000.0" v="1.5"/>
-                  <Terrain maxHeight="0.0" noise="0.5" texture="PlanetCrustSmoon.png" color="35,35,35" />
+                  <Terrain maxHeight="0.0" noise="0.5" texture="PlanetCrustEuropa.png" color="4,20,38" />
                </Planet>
-               <Planet name="Io Jr" gravity="1.796" radius="182160" mapColor="211,204,134" icon="Moon.png" launchEnabled="false" description="">
+               <Planet name="Io Jr" gravity="1.796" radius="182160" mapColor="211,204,134" icon="Moon.png" description="">
                   <Orbit w="0.2" e="0.0041" prograde="1" a="42170000.0" v="2.0"/>
-                  <Terrain maxHeight="450.0" noise="0.5" texture="PlanetCrustSmoon.png" color="35,35,35" />
+                  <Terrain maxHeight="450.0" noise="0.5" texture="PlanetCrustIo.png" color="35,35,35" />
                </Planet>
-               <Planet name="Callisto Jr" gravity="1.235" radius="241030" mapColor="99,121,118" icon="Moon.png" launchEnabled="false" description="">
+               <Planet name="Callisto Jr" gravity="1.235" radius="241030" mapColor="99,121,118" icon="Moon.png" description="">
                   <Orbit w="0.3" e="0.0074" prograde="1" a="188270000.0" v="2.5"/>
-                  <Terrain maxHeight="650.0" noise="0.5" texture="PlanetCrustSmercury.png" color="27,27,27" />
+                  <Terrain maxHeight="650.0" noise="0.5" texture="PlanetCrustCallisto.png" color="16,16,16" />
                </Planet>
             </Children>
          </Planet>
